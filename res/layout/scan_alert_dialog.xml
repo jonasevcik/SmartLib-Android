@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <TextView
+        style="@style/DisplayBookHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:text="@string/dialog_book_scanning" />
+
+    <ProgressBar
+        android:id="@+id/dialog_scan_progress"
+        style="?android:progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="8dp" />
+
+    <TextView 
+        android:id="@+id/dialog_scan_not_found_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:text="@string/dialog_scan_not_found" />
+        
+    <Button
+        android:id="@+id/dialog_scan_close"
+        style="@style/GreenButtonSmall"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dip"
+        android:enabled="false"
+        android:text="@string/btn_close" />
+
+</LinearLayout>

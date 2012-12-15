@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="15dip" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+	    <TextView
+        	style="@style/DisplayBookHeading"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dip"
+	        android:text="@string/display_book_reviews" />
+		    	
+		<ProgressBar 
+		    android:id="@+id/display_book_progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="8dp"
+	        android:layout_gravity="center_vertical"
+	        android:visibility="gone"
+	        style="?android:progressBarStyleSmall" />
+			
+		<TextView 
+		    android:id="@+id/display_book_progress_text"
+			android:textAppearance="?android:textAppearanceSmall"
+			android:layout_width="wrap_content"
+	        android:layout_gravity="center_vertical"
+			android:visibility="gone"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/display_book_reviews_list">
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/display_book_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:visibility="gone"/>
+        
+        <Button 
+            style="@style/smartlibtheme_green_button"
+			android:id="@+id/display_book_add_review_button"
+			android:text="@string/btn_add_review"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:onClick="addReview"
+			android:layout_marginTop="15dip" />
+    
+    
+</LinearLayout>

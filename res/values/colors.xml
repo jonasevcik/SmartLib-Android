@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="light_orange">#faa719</color>
+	<color name="dark_orange">#b57000</color>
+	<color name="light_green_disabled">#cbcbcb</color>
+	<color name="dark_green_disabled">#9f9f9f</color>
+	<color name="light_green">#a2dc37</color>
+	<color name="dark_green">#75af06</color>
+	<color name="light_green2">#78b428</color>
+	<color name="dark_green2">#558304</color>
+	<color name="text_dark">#1e1f1c</color>
+	<color name="text_medium_dark">#686868</color>
+	<color name="text_light">#acacac</color>
+	<color name="text_shadow">#b4bea3</color>
+	<color name="text_outer_shadow">#659a01</color>
+	<color name="background_light">#f5fce6</color>
+	<color name="translucent_dark">#99000000</color>
+    <color name="translucenter_dark">#bf000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="background">#f0f8db</color>
+    <color name="splash_background">#a2dc37</color>
+    <color name="splash_login_selected">#3e5e03</color>
+    <color name="splash_login_selected_end">#4D7504</color>
+    <color name="splash_login_unselected">#609105</color>
+    <color name="splash_login_unselected_end">#72A806</color>
+    <color name="splash_signup_selected">#3e5e03</color>
+    <color name="splash_signup_selected_end">#4D7504</color>
+    <color name="splash_signup_unselected">#609105</color>
+    <color name="splash_signup_unselected_end">#72A806</color>
+    <color name="splash_notnow_selected">#3e5e03</color>
+    <color name="splash_notnow_selected_end">#4D7504</color>
+    <color name="splash_notnow_unselected">#609105</color>
+    <color name="splash_notnow_unselected_end">#72A806</color>
+    <color name="splash_button_disabled">#222222</color>
+    <color name="splash_button_disabled_end">#424242</color>
+    <color name="edit_text_stroke_enabled">#f0fcd9</color>
+    <color name="edit_text_stroke_enabled_focused">#609105</color>
+    <color name="splash_text_view">#e8fbc4</color>
+    <color name="splash_checkbox">#609105</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_enabled="false" >
+        <shape>
+        	<solid android:color="@color/white" />
+            <stroke
+                android:width="3dip"
+                android:color="@color/dark_green_disabled" />
+            <corners
+                android:radius="3dip" />
+            <padding
+                android:left="10dip"
+                android:top="10dip"
+                android:right="10dip"
+                android:bottom="10dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" >
+        <shape>
+        	<solid android:color="@color/white" />
+            <stroke
+                android:width="3dip"
+                android:color="@color/edit_text_stroke_enabled" />
+            <corners
+                android:radius="3dip" />
+            <padding
+                android:left="10dip"
+                android:top="10dip"
+                android:right="10dip"
+                android:bottom="10dip" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+        	<solid android:color="@color/white" />
+            <stroke
+                android:width="3dip"
+                android:color="@color/edit_text_stroke_enabled_focused" />
+            <corners
+                android:radius="3dip" />
+            <padding
+                android:left="10dip"
+                android:top="10dip"
+                android:right="10dip"
+                android:bottom="10dip" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+        	<solid android:color="@color/white" />
+            <stroke
+                android:width="3dip"
+                android:color="@color/edit_text_stroke_enabled" />
+            <corners
+                android:radius="3dip" />
+            <padding
+                android:left="10dip"
+                android:top="10dip"
+                android:right="10dip"
+                android:bottom="10dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="GreenWindowTitleBackground" parent="@android:style/Widget">
+		<item name="android:background">@color/dark_green</item>
+		<item name="android:paddingLeft">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowColor">@color/text_outer_shadow</item>
+	</style>
+	
+	<style name="GreenButton" parent="@android:style/Widget.Button">
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+	</style>
+	
+	<style name="GreenButtonSmall" parent="@android:style/Widget.Button">
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+	</style>
+	
+	<style name="PreferenceListHeader" parent="@android:style/Widget.TextView">
+		<item name="android:background">@color/light_green</item>
+		<item name="android:paddingLeft">10dip</item>
+		<item name="android:paddingTop">3dip</item>
+		<item name="android:paddingBottom">3dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">5</item>
+	</style>
+	
+	<style name="AutoCompleteTextViewDark" parent="@android:style/Widget.AutoCompleteTextView">
+		<item name="android:textColor">@color/text_dark</item>
+	</style>
+	
+	<style name="DropDownItemDark" parent="@android:style/Widget.DropDownItem">
+		<item name="android:textColor">@color/text_dark</item>
+	</style>
+	
+	<style name="LightGreen" parent="android:Theme.Light">
+		<item name="android:windowBackground">@color/background_light</item>
+    	<item name="android:colorBackground">@color/background_light</item>
+    	<item name="android:windowTitleBackgroundStyle">@style/GreenWindowTitleBackground</item>
+    	<item name="android:buttonStyle">@style/GreenButton</item>
+    	<item name="android:listSeparatorTextViewStyle">@style/PreferenceListHeader</item>
+    	<item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewDark</item>
+		<item name="android:dropDownItemStyle">@style/DropDownItemDark</item>
+    </style>
+    
+</resources>

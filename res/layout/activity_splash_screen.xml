@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/splash_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/splash_background"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_uco"
+            android:textColor="@color/splash_text_view"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/activity_splash_uco"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/green_text_view"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_password"
+            android:textColor="@color/splash_text_view"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/activity_splash_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_text_view"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/activity_splash_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"
+            android:button="@drawable/checkbox"
+            android:text="@string/dialog_remember_me"
+            android:textColor="@color/splash_checkbox" />
+
+        <ProgressBar
+            android:id="@+id/activity_splash_progress"
+            android:layout_width="25dip" 
+            android:layout_height="25dip"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/splash_background"
+        android:gravity="bottom"
+        android:padding="10dip">
+        
+        <Button
+            android:id="@+id/activity_splash_signup"
+            android:background="@drawable/signup_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="1dip"
+            android:text="@string/btn_signup" />
+
+        <Button
+            android:id="@+id/activity_splash_login"
+            android:background="@drawable/login_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/btn_login" />
+
+        <Button
+            android:id="@+id/activity_splash_notnow"
+            android:background="@drawable/not_now_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dip"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/btn_not_now" />
+        </TableRow>
+
+</LinearLayout>

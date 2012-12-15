@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="15dip" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+	    <TextView
+        	style="@style/DisplayBookHeading"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dip"
+	        android:text="@string/display_book_statistics" />
+		    	
+		<ProgressBar 
+		    android:id="@+id/display_book_progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="8dp"
+	        android:layout_gravity="center_vertical"
+	        android:visibility="gone"
+	        style="?android:progressBarStyleSmall" />
+			
+		<TextView 
+		    android:id="@+id/display_book_progress_text"
+			android:textAppearance="?android:textAppearanceSmall"
+			android:layout_width="wrap_content"
+	        android:layout_gravity="center_vertical"
+			android:visibility="gone"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+    
+    
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:gravity="left|right"
+            android:orientation="horizontal"
+            android:padding="5dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dark_green2"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/average"
+                    android:textColor="@color/background_light" />
+
+                <TextView
+                    android:id="@+id/display_book_average_rating"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_green"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="0.0"
+                    android:textColor="@color/text_dark"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/display_book_rating_count"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/light_green"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="15dip" >
+
+                <TextView
+                    style="@style/DisplayBookStarsText"
+                    android:text="@string/display_book_5stars" />
+
+                <TextView
+                    style="@style/DisplayBookStarsText"
+                    android:text="@string/display_book_4stars" />
+
+                <TextView
+                    style="@style/DisplayBookStarsText"
+                    android:text="@string/display_book_3stars" />
+
+                <TextView
+                    style="@style/DisplayBookStarsText"
+                    android:text="@string/display_book_2stars" />
+
+                <TextView
+                    style="@style/DisplayBookStarsText"
+                    android:text="@string/display_book_1star" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:orientation="vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/display_book_5stars_bar"
+                    style="@style/DisplayBookStarsBar"
+                    android:width="5dip"
+                    android:minWidth="5dip" />
+
+                <TextView
+                    android:id="@+id/display_book_4stars_bar"
+                    style="@style/DisplayBookStarsBar"
+                    android:width="5dip" />
+
+                <TextView
+                    android:id="@+id/display_book_3stars_bar"
+                    style="@style/DisplayBookStarsBar"
+                    android:width="5dip" />
+
+                <TextView
+                    android:id="@+id/display_book_2stars_bar"
+                    style="@style/DisplayBookStarsBar"
+                    android:width="5dip" />
+
+                <TextView
+                    android:id="@+id/display_book_1stars_bar"
+                    style="@style/DisplayBookStarsBar"
+                    android:width="5dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:minWidth="50dip"
+                android:orientation="vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/display_book_5stars_count"
+                    style="@style/DisplayBookStarsCount"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/display_book_4stars_count"
+                    style="@style/DisplayBookStarsCount"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/display_book_3stars_count"
+                    style="@style/DisplayBookStarsCount"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/display_book_2stars_count"
+                    style="@style/DisplayBookStarsCount"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/display_book_1stars_count"
+                    style="@style/DisplayBookStarsCount"
+                    android:text="0" />
+            </LinearLayout>
+
+        </LinearLayout>
+    
+</LinearLayout>

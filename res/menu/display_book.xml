@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_details_save"
+        android:icon="@drawable/content_save"
+        android:title="@string/menu_save"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_details_refresh"
+        android:icon="@drawable/navigation_refresh"
+        android:title="@string/menu_refresh"
+        android:orderInCategory="1"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_details_pdf"
+        android:icon="@drawable/collections_view_as_list"
+        android:title="@string/menu_pdf_preview"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+
+</menu>

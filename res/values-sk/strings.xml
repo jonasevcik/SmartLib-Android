@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- buttons -->
+    <string name="btn_not_now">Teraz Nie</string>
+    <string name="btn_signup"> Registrácia</string>
+    <string name="btn_login"> Prihlásiť sa</string>
+    <string name="btn_check"> Overiť</string>
+    <string name="btn_add_review"> Pridať recenziu</string>
+    <string name="btn_search"> Vyhľadať</string>
+    <string name="btn_rate"> Hodnotiť</string>
+    <string name="btn_send"> Odoslať</string>
+    <string name="btn_close"> Zavrieť</string>
+    <!-- dialogs -->
+
+    <string name="dialog_authentication"> Prihlásenie</string>
+    <string name="dialog_signup"> Registrácia</string>
+    <string name="dialog_remember_me"> Zapamätať si?</string>
+    <string name="dialog_uco">UČO</string>
+    <string name="dialog_password">Heslo</string>
+    <string name="dialog_first_name"> Meno</string>
+    <string name="dialog_last_name"> Priezvisko</string>
+    <string name="dialog_book_scanning"> Skenovanie</string>
+    <string name="dialog_scan_not_found"> Žiadne knihy nenašli.</string>
+
+    <!-- menu -->
+    <string name="menu_save"> Uložiť</string>
+    <string name="menu_refresh"> Obnoviť</string>
+    <string name="menu_pdf_preview">PDF Náhľad</string>
+    <string name="menu_add_to_wishlist"> Pridať do oblínených</string>
+    <string name="menu_search"> Vyhľadať</string>
+    <string name="menu_scan"> Skenovať</string>
+
+    <!-- general -->
+    <string name="app_name">SmartLib MU</string>
+    <string name="dialog_text_no_internet_conection"> Pripojenie nie je k dispozícii! Prosím pripojte sa k sieti.</string>
+    <string name="loading"> Načítanie…</string>
+    <string name="loading_error"> Chyba Načítanie…</string>
+    <string name="empty_book_list">Žiadne knihy nenašli.</string>
+    <string name="no_internet">Pripojenie nie je k dispozícii…</string>
+    <string name="history"> HISTÓRIA </string>
+    <string name="top">TOP</string>
+    <string name="lately_rated"> NAPOSLEDY HODNOTENÉ</string>
+    <string name="favourites"> OBĽÚBENÉ</string>
+    <string name="display_book_description">Popis</string>
+    <string name="display_book_name">Detail Knihy</string>
+    <string name="display_book_reviews"> Recenzia</string>
+    <string name="display_book_statistics"> Štatistika</string>
+    <string name="display_book_availability"> Dostupnosť</string>
+    <string name="display_book_isbn">ISBN:</string>
+    <string name="display_book_publisher"> Vydavateľ:</string>
+    <string name="display_book_published_date"> Dátum vydania:</string>
+    <string name="display_book_language">Jazyk:</string>
+    <string name="display_book_page_count"> Počet Strán:</string>
+    <string name="display_book_page_type">Typ stránky:</string>
+    <string name="display_book_empty_copies"> Knihy nie sú k dispozícii</string>
+    <string name="display_book_empty_review"> Zatiaľ nerecenzováno.</string>
+    <string name="display_book_1star">1 hviezdička</string>
+    <string name="display_book_2stars">2 hviezdičky</string>
+    <string name="display_book_3stars">3 hviezdičky</string>
+    <string name="display_book_4stars">4 hviezdičky</string>
+    <string name="display_book_5stars">5 hviezdiček</string>
+    <string name="average"> Priemer</string>
+    <string name="rate_rating"> Hodnotenie</string>
+    <string name="rate_rate_book"> Hodnotiť knihu </string>
+    <string name="rate_review"> Recenzia</string>
+    <string name="copy_available">Dostupná</string>
+    <string name="copy_not_available">Nedostupná</string>
+    <string name="query"> Otázka</string>
+    <string name="activity_search"> Vyhľadávanie kníh</string>
+    <string name="activity_rate"> Hodnotiť knihu</string>
+
+    <!-- toasts -->
+    <string name="toast_add_book_succ"> Kniha bola úspešne pridaná do obľúbených.</string>
+    <string name="toast_add_book_fail"> Kniha nemôže byť pridaná do obľúbených.</string>
+    <string name="toast_book_deleted_succ"> Kniha bola úspešne odstránená z obľúbených.</string>
+    <string name="toast_book_deleted_fail"> Nepodarilo sa zmazať knihu.</string>
+    <string name="toast_registration_success"> Gratulujeme! Vaše heslo bolo zaslané na Váš školský e-mail.</string>
+    <string name="toast_registration_fail"> Registrácia zlyhala.</string>
+    <string name="toast_login_succ">Prihlásenie prebehlo úspešne.</string>
+    <string name="toast_login_fail">Nepodarilo sa prihlásiť.</string>
+    <string name="toast_empty_fields"> Všetky polia musia byť vyplnené!</string>
+    <string name="toast_rate_succ"> Vaše hodnotenie bolo úspešne pridané!</string>
+    <string name="toast_rate_fail"> Nemožno pridať recenziu!</string>
+    <string name="toast_scan_invalid_isbn"> Neplatný formát ISBN!</string>
+
+    <!-- acra -->
+    <string name="crash_dialog_text"> Došlo k neočakávanej chybe aplikácie. Prosím, pomôžte nám tento problém vyriešiť tým, že nám pošlete chybné dáta, všetko čo musíte urobiť je kliknúť na tlačidlo OK.</string>
+    <string name="crash_dialog_comment_prompt"> Môžete pridať svoje poznámky k problému nižšie (Čo ste robili, keď aplikácie zlyhala?):</string>
+    <string name="crash_dialog_ok_toast"> Ďakujeme !</string>
+
+</resources>

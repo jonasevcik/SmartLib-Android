@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<style name="DisplayBookHeading">
+		<item name="android:textColor">@color/dark_green</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+	<style name="DisplayBookHeading2">
+		<item name="android:textColor">@color/text_dark</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="DisplayBookUsername">
+		<item name="android:textColor">@color/text_dark</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="DisplayBookDate">
+		<item name="android:textColor">@color/text_light</item>
+		<item name="android:layout_gravity">right</item>
+	</style>
+	<style name="DisplayBookStarsText">
+  	    <item name="android:textSize">12sp</item>
+  	    <item name="android:layout_width">wrap_content</item>
+  	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">@color/text_medium_dark</item>
+	    <item name="android:layout_marginBottom">3dip</item>
+	</style>
+	<style name="DisplayBookStarsBar">
+  	    <item name="android:textSize">12sp</item>
+  	    <item name="android:layout_width">wrap_content</item>
+  	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:background">@color/light_orange</item>
+	    <item name="android:layout_marginBottom">3dip</item>
+	    <item name="android:minWidth">1dip</item>
+	</style>
+	<style name="DisplayBookStarsCount">
+  	    <item name="android:textSize">12sp</item>
+  	    <item name="android:layout_width">wrap_content</item>
+  	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">@color/text_light</item>
+	    <item name="android:layout_marginBottom">3dip</item>
+	</style>
+   
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- buttons -->
+	<string name="btn_not_now">Not Now</string>
+	<string name="btn_signup">Sign Up</string>
+	<string name="btn_login">Log In</string>
+	<string name="btn_check">Check</string>
+	<string name="btn_add_review">Add Review</string>
+    <string name="btn_search">Search</string>
+	<string name="btn_rate">Rate</string>
+	<string name="btn_send">Send</string>
+	<string name="btn_close">Close</string>
+    <!-- dialogs -->
+    
+    <string name="dialog_authentication">Authentication</string>
+    <string name="dialog_signup">Sign Up</string>
+    <string name="dialog_remember_me">Remember me?</string>
+    <string name="dialog_uco">UČO</string>
+    <string name="dialog_password">Password</string>
+	<string name="dialog_first_name">First Name</string>
+	<string name="dialog_last_name">Last Name</string>
+	<string name="dialog_book_scanning">Book Scanning</string>
+	<string name="dialog_scan_not_found">No books were found.</string>
+	<string name="dialog_feedback">Feedback</string>
+	<string name="dialog_feedback_message">Message</string>
+    
+    <!-- menu -->
+	<string name="menu_save">Save</string>
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_pdf_preview">PDF Preview</string>
+	<string name="menu_add_to_wishlist">Add To Favourites</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_remove">Remove</string>
+	
+	
+    <!-- general -->
+    <string name="application_name">SmartLib MU</string>
+    <string name="dialog_text_no_internet_conection">No internet connection! Please connect to the network.</string>
+	<string name="loading">Loading …</string>
+	<string name="loading_error">Loading Error …</string>
+	<string name="empty_book_list">No books were found.</string>
+	<string name="no_internet">No internet connection …</string>
+	<string name="history">HISTORY</string>
+	<string name="top">TOP</string>
+	<string name="lately_rated">LATELY RATED</string>
+	<string name="favourites">FAVOURITES</string>
+	
+	<string name="display_book_description">Description</string>
+	<string name="display_book_name">Book details</string>
+	<string name="display_book_reviews">Reviews</string>
+	<string name="display_book_statistics">Statistics</string>
+	<string name="display_book_availability">Availability</string>
+	<string name="display_book_isbn">ISBN:</string>
+	<string name="display_book_publisher">Publisher:</string>
+	<string name="display_book_published_date">Published Date:</string>
+	<string name="display_book_language">Language:</string>
+	<string name="display_book_page_count">Page Count:</string>
+	<string name="display_book_page_type">Page Type:</string>
+	<string name="display_book_empty_copies">No books available</string>
+	<string name="display_book_empty_review">There are no reviews yet.</string>
+	<string name="display_book_1star">1 star</string>
+	<string name="display_book_2stars">2 stars</string>
+	<string name="display_book_3stars">3 stars</string>
+	<string name="display_book_4stars">4 stars</string>
+	<string name="display_book_5stars">5 stars</string>
+	<string name="average">Average</string>
+	<string name="rate_rating">Rating</string>
+	<string name="rate_rate_book">Rate book</string>
+	<string name="rate_review">Review</string>
+	<string name="copy_available">Available</string>
+	<string name="copy_not_available">Not available</string>
+	<string name="query">Query</string>
+	<string name="activity_search">Search books</string>
+	<string name="activity_rate">Rate book</string>
+	
+
+    <!-- toasts -->
+    <string name="toast_add_book_succ">Book was successfully added to favourites.</string>
+	<string name="toast_add_book_fail">Book could not be added to favourites.</string>
+	<string name="toast_book_deleted_succ">Book was successfully removed from favourites.</string>
+	<string name="toast_book_deleted_fail">Failed to delete the book.</string>
+	<string name="toast_registration_success">Congratulations! Your password has been sent to your university e-mail address.</string>
+	<string name="toast_registration_fail">Registration failed.</string>
+	<string name="toast_login_succ">Successfully logged in.</string>
+	<string name="toast_login_fail">Failed to log in!</string>
+	<string name="toast_empty_fields">All fields must be filled in!</string>
+	<string name="toast_rate_succ">Your review was successfully added!</string>
+	<string name="toast_rate_fail">Unable to add your review!</string>
+    <string name="toast_scan_invalid_isbn">Invalid ISBN format!</string>
+	
+	
+    <!-- acra -->
+	<string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is click OK.</string>
+	<string name="crash_dialog_comment_prompt">You might add your comments about the problem below (What were you doing when the app crashed?):</string>
+	<string name="crash_dialog_ok_toast">Thank you!</string>
+    
+</resources>

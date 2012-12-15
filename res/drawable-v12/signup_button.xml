@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_enabled="false" >
+        <shape>
+            <gradient
+                android:startColor="@color/splash_button_disabled"
+                android:endColor="@color/splash_button_disabled_end"
+                android:angle="270" />
+            <corners
+                android:topLeftRadius="5dip" 
+                android:bottomLeftRadius="5dip"
+                android:topRightRadius="0dip"
+                android:bottomRightRadius="0dip"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/splash_signup_selected"
+                android:endColor="@color/splash_signup_selected_end"
+                android:angle="270" />
+            <corners
+                android:topLeftRadius="5dip" 
+                android:bottomLeftRadius="5dip"
+                android:topRightRadius="0dip"
+                android:bottomRightRadius="0dip"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/light_orange"
+                android:endColor="@color/dark_orange"
+                android:angle="270" />
+            <corners
+                android:topLeftRadius="5dip" 
+                android:bottomLeftRadius="5dip"
+                android:topRightRadius="0dip"
+                android:bottomRightRadius="0dip"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                android:startColor="@color/splash_signup_unselected"
+                android:endColor="@color/splash_signup_unselected"
+                android:angle="270" />
+            <corners
+                android:topLeftRadius="5dip" 
+                android:bottomLeftRadius="5dip"
+                android:topRightRadius="0dip"
+                android:bottomRightRadius="0dip"/>
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
